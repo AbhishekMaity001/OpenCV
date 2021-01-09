@@ -5,15 +5,15 @@
 import cv2
 
 
-''' img = cv2.imread('C:/Users/Abhishek Maity/Pictures/Camera Roll/proffile (2).jpg')
-while True :
-    cv2.imshow("window",img)
-
-    if(cv2.waitKey(0)) == ord('q'):
-        break
-
-#cv2.imwrite("me.jpeg",img)
-cv2.destroyAllWindows()  '''
+# img = cv2.imread('C:/Users/Abhishek Maity/Pictures/Camera Roll/proffile (2).jpg')
+# while True :
+#     cv2.imshow("window",img)
+#
+#     if(cv2.waitKey(0)) == ord('q'):
+#         break
+#
+# cv2.imwrite("me.jpeg",img)
+# cv2.destroyAllWindows()
 
 cap = cv2.VideoCapture(0)
 
